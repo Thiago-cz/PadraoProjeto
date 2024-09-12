@@ -7,5 +7,15 @@ public class Main {
 
         CaixaAssinatura caixaPlatina = LojaQuadrinhos.criarCaixaAleatoria("Platina");
         caixaPlatina.listarItens();
+
+        System.out.println();
+
+        CaixaAssinatura caixaOuro = LojaQuadrinhos.criarCaixaAleatoria("Ouro");
+        caixaOuro.listarItens();
+
+        System.out.println();
+
+        CaixaAssinatura caixaPrata = LojaQuadrinhos.criarCaixaAleatoria("Prata");
+        caixaPrata.listarItens();
     }
 }
